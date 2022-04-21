@@ -31,18 +31,18 @@
       </ul>
       <h3>Add new transaction</h3>
       <form action="" id="form" class="form">
-        <div id="form-control">
+        <div id="form-control twins">
           <label for="text">Description</label>
           <input type="text" id="text" placeholder="Enter text here..." />
         </div>
-        <div action="form-control">
+        <div action="form-control twins">
           <label for="amount"
-            >Amount <br />(negative - expense, positive - income)
+            >Amount <span class="note">(- expense, + income)</span>
           </label>
           <input type="number" id="amount" placeholder="Enter amount ..." />
         </div>
-        <button class="btn">Add transaction</button>
       </form>
+      <button type="submit" form="form" class="btn">Add transaction</button>
     </div>
 
     <script src="index.js"></script>

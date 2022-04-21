@@ -139,3 +139,17 @@ input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+.form {
+  width: 100%;
+  display: flex;
+}
+
+#twins{
+  width: 40%;
+}
+.note{
+  font-size: 10px;
+  color: red;
+  font: arial;
+}
