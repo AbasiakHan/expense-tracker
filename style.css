@@ -145,11 +145,18 @@ input[type="number"] {
   display: flex;
 }
 
-#twins{
-  width: 40%;
+#twin1{
+  width: 50%;
 }
+
+#twin2{
+  width: 50%;
+}
+
+
 .note{
   font-size: 10px;
   color: red;
   font: arial;
+  text-transform: uppercase;
 }
